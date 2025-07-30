@@ -1,0 +1,120 @@
+2025-07-30 03:05:39,232 | ERROR | File not found: appdata10.csv
+2025-07-30 03:14:03,834 | INFO | Loaded dataset: D:/Desktop/Directing-Customers-to-Subscription-Through-App-Behaviour-Analysis/11Directing Customers to Subscription Through App Behaviour Analysis/appdata10.csv | Shape: (50000, 12)
+2025-07-30 03:14:03,834 | INFO | 
+Missing values per column:
+2025-07-30 03:14:03,847 | INFO | user                        0
+first_open                  0
+dayofweek                   0
+hour                        0
+age                         0
+screen_list                 0
+numscreens                  0
+minigame                    0
+used_premium_feature        0
+enrolled                    0
+enrolled_date           18926
+liked                       0
+2025-07-30 03:14:03,915 | INFO | Parsed 'hour' column successfully.
+2025-07-30 03:14:08,341 | ERROR | File not found: top_screens.csv
+2025-07-30 03:14:12,246 | INFO | Loaded dataset: D:/Desktop/Directing-Customers-to-Subscription-Through-App-Behaviour-Analysis/11Directing Customers to Subscription Through App Behaviour Analysis/appdata10.csv | Shape: (50000, 12)
+2025-07-30 03:14:12,247 | INFO | 
+Missing values per column:
+2025-07-30 03:14:12,262 | INFO | user                        0
+first_open                  0
+dayofweek                   0
+hour                        0
+age                         0
+screen_list                 0
+numscreens                  0
+minigame                    0
+used_premium_feature        0
+enrolled                    0
+enrolled_date           18926
+liked                       0
+2025-07-30 03:14:12,305 | INFO | Parsed 'hour' column successfully.
+2025-07-30 03:14:12,594 | INFO | Loaded dataset: D:/Desktop/Directing-Customers-to-Subscription-Through-App-Behaviour-Analysis/11Directing Customers to Subscription Through App Behaviour Analysis/appdata10.csv | Shape: (50000, 12)
+2025-07-30 03:14:12,594 | INFO | 
+Missing values per column:
+2025-07-30 03:14:12,607 | INFO | user                        0
+first_open                  0
+dayofweek                   0
+hour                        0
+age                         0
+screen_list                 0
+numscreens                  0
+minigame                    0
+used_premium_feature        0
+enrolled                    0
+enrolled_date           18926
+liked                       0
+2025-07-30 03:14:12,627 | INFO | Parsed 'hour' column successfully.
+2025-07-30 03:14:15,358 | ERROR | File not found: top_screens.csv
+2025-07-30 03:14:15,728 | ERROR | File not found: top_screens.csv
+2025-07-30 03:14:19,495 | INFO | Loaded dataset: D:/Desktop/Directing-Customers-to-Subscription-Through-App-Behaviour-Analysis/11Directing Customers to Subscription Through App Behaviour Analysis/appdata10.csv | Shape: (50000, 12)
+2025-07-30 03:14:19,496 | INFO | 
+Missing values per column:
+2025-07-30 03:14:19,511 | INFO | user                        0
+first_open                  0
+dayofweek                   0
+hour                        0
+age                         0
+screen_list                 0
+numscreens                  0
+minigame                    0
+used_premium_feature        0
+enrolled                    0
+enrolled_date           18926
+liked                       0
+2025-07-30 03:14:19,533 | INFO | Parsed 'hour' column successfully.
+2025-07-30 03:14:21,869 | ERROR | File not found: top_screens.csv
+2025-07-30 03:14:25,753 | INFO | Loaded dataset: D:/Desktop/Directing-Customers-to-Subscription-Through-App-Behaviour-Analysis/11Directing Customers to Subscription Through App Behaviour Analysis/appdata10.csv | Shape: (50000, 12)
+2025-07-30 03:14:25,754 | INFO | 
+Missing values per column:
+2025-07-30 03:14:25,765 | INFO | user                        0
+first_open                  0
+dayofweek                   0
+hour                        0
+age                         0
+screen_list                 0
+numscreens                  0
+minigame                    0
+used_premium_feature        0
+enrolled                    0
+enrolled_date           18926
+liked                       0
+2025-07-30 03:14:25,788 | INFO | Parsed 'hour' column successfully.
+2025-07-30 03:14:28,119 | ERROR | File not found: top_screens.csv
+2025-07-30 03:14:31,791 | INFO | Loaded dataset: D:/Desktop/Directing-Customers-to-Subscription-Through-App-Behaviour-Analysis/11Directing Customers to Subscription Through App Behaviour Analysis/appdata10.csv | Shape: (50000, 12)
+2025-07-30 03:14:31,791 | INFO | 
+Missing values per column:
+2025-07-30 03:14:31,801 | INFO | user                        0
+first_open                  0
+dayofweek                   0
+hour                        0
+age                         0
+screen_list                 0
+numscreens                  0
+minigame                    0
+used_premium_feature        0
+enrolled                    0
+enrolled_date           18926
+liked                       0
+2025-07-30 03:14:31,820 | INFO | Parsed 'hour' column successfully.
+2025-07-30 03:14:34,116 | ERROR | File not found: top_screens.csv
+2025-07-30 03:14:37,942 | INFO | Loaded dataset: D:/Desktop/Directing-Customers-to-Subscription-Through-App-Behaviour-Analysis/11Directing Customers to Subscription Through App Behaviour Analysis/appdata10.csv | Shape: (50000, 12)
+2025-07-30 03:14:37,943 | INFO | 
+Missing values per column:
+2025-07-30 03:14:37,953 | INFO | user                        0
+first_open                  0
+dayofweek                   0
+hour                        0
+age                         0
+screen_list                 0
+numscreens                  0
+minigame                    0
+used_premium_feature        0
+enrolled                    0
+enrolled_date           18926
+liked                       0
+2025-07-30 03:14:37,972 | INFO | Parsed 'hour' column successfully.
+2025-07-30 03:14:39,977 | ERROR | File not found: top_screens.csv

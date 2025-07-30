@@ -7,7 +7,7 @@ import seaborn as sn
 import matplotlib.pyplot as plt
 import time
 
-dataset = pd.read_csv('new_appdata10.csv')
+dataset = pd.read_csv('D:/Desktop/Directing-Customers-to-Subscription-Through-App-Behaviour-Analysis/11Directing Customers to Subscription Through App Behaviour Analysis/new_appdata10.csv')
 
 
 #### Data Pre-Processing ####
@@ -72,7 +72,7 @@ X_test = X_test2
 
 # Fitting Model to the Training Set
 from sklearn.linear_model import LogisticRegression
-classifier = LogisticRegression(random_state = 0, penalty = 'l1')
+classifier = LogisticRegression(random_state=0, penalty='l1', solver='liblinear')
 #penalty is going to convert the logistic regression model to a L1 regularization model
 #the screen may be corelated to each other that is evaluated by L1 it penalises the 
 #strong corelation in mobie screen case

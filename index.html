@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Subscription Analysis</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+        h1, h2, h3 { color: #2c3e50; }
+        table { border-collapse: collapse; width: 100%; margin-bottom: 30px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f4f4f4; }
+        .highlight { color: #27ae60; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Customer Subscription Analysis Report</h1>
+
+    <h2>Model Performance Summary</h2>
+    <table>
+        <tr><th>Metric</th><th>Value</th></tr>
+        <tr><td>Test Accuracy</td><td class="highlight">0.7681</td></tr>
+        <tr><td>Cross-Validated Accuracy</td><td class="highlight">0.767 ± 0.009</td></tr>
+        <tr><td>F1 Score</td><td class="highlight">0.7945</td></tr>
+        <tr><td>Precision</td><td class="highlight">0.7376</td></tr>
+        <tr><td>Recall (Sensitivity)</td><td class="highlight">0.8604</td></tr>
+        <tr><td>Specificity</td><td class="highlight">0.6670</td></tr>
+    </table>
+
+    <div class="section">
+      <h2>📦 Dataset Description</h2>
+      <p><strong>Dataset:</strong> 50,000 users | Source: App event tracking</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>Count</th>
+            <th>Mean</th>
+            <th>Std</th>
+            <th>Min</th>
+            <th>25%</th>
+            <th>50%</th>
+            <th>75%</th>
+            <th>Max</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>user</td><td>50000</td><td>186889.73</td><td>107768.52</td><td>13</td><td>93526.75</td><td>187193.50</td><td>279984.25</td><td>373662</td></tr>
+          <tr><td>dayofweek</td><td>50000</td><td>3.03</td><td>2.03</td><td>0</td><td>1.00</td><td>3.00</td><td>5.00</td><td>6</td></tr>
+          <tr><td>age</td><td>50000</td><td>31.72</td><td>10.80</td><td>16</td><td>24.00</td><td>29.00</td><td>37.00</td><td>101</td></tr>
+          <tr><td>numscreens</td><td>50000</td><td>21.10</td><td>15.73</td><td>1</td><td>10.00</td><td>18.00</td><td>28.00</td><td>325</td></tr>
+          <tr><td>minigame</td><td>50000</td><td>0.1078</td><td>0.3102</td><td>0</td><td>0.00</td><td>0.00</td><td>0.00</td><td>1</td></tr>
+          <tr><td>used_premium_feature</td><td>50000</td><td>0.1720</td><td>0.3774</td><td>0</td><td>0.00</td><td>0.00</td><td>0.00</td><td>1</td></tr>
+          <tr><td>enrolled</td><td>50000</td><td>0.6215</td><td>0.4850</td><td>0</td><td>0.00</td><td>1.00</td><td>1.00</td><td>1</td></tr>
+          <tr><td>liked</td><td>50000</td><td>0.1650</td><td>0.3712</td><td>0</td><td>0.00</td><td>0.00</td><td>0.00</td><td>1</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Key EDA & Feature Engineering Highlights</h2>
+    <ul>
+        <li✔️ Robust datetime parsing and hour extraction</li>
+        <li>✔️ Screen list decomposition and funnel grouping</li>
+        <li>✔️ Feature scaling applied using <code>StandardScaler</code></li>
+        <li>✔️ L1 regularized Logistic Regression model for feature sparsity</li>
+        <li>✔️ K-Fold cross-validation and GridSearchCV tuning</li>
+    </ul>
+
+    <h2>Visualizations</h2>
+    <ul>
+        <li><img src="correlation_with_target.png" alt="(Will be auto-generated after EDA run)" width="600"></li>
+        <li><img src="correlation_matrix.png" alt="(Will be auto-generated after EDA run)" width="600"></li>
+        <li><img src="feature_histograms.png" alt="(Will be auto-generated after EDA run)" width="600"></li>
+    </ul>
+
+    <h2>Output Files</h2>
+    <ul>
+        <li><strong>Cleaned Dataset:</strong> <code>new_appdata10_YYYYMMDD_HHMMSS.csv</code></li>
+        <li><strong>EDA Log:</strong> <code>eda_processing.log</code></li>
+        <li><strong>Predictions:</strong> <code>final_results.csv</code></li>
+        <li><strong>Model Evaluation:</strong> <code>model_metrics.csv</code></li>
+    </ul>
+</body>
+</html>
